@@ -1,32 +1,37 @@
 <div align="center">
-  <h1>KittyDelivery, module Client</h1>
-  <p>Microservice de l'architecture KittyDelivery, plateforme de livraison de repas type Uber Eats</p>
+  <img src=".github/assets/banner.png" alt="KittyDelivery Notification Service banner" width="100%" />
+
+  <h1>KittyDelivery, Notification Service</h1>
+
+  <p>Microservice of the KittyDelivery architecture, an Uber Eats style food delivery platform.</p>
+
   <p>
-    <img src="https://img.shields.io/badge/repo-priv%C3%A9-lightgrey?style=flat-square" alt="repo prive" />
+    <img src="https://img.shields.io/github/last-commit/kitty-delivery/KittyDelivery_mc_notif" alt="last update" />
+    <img src="https://img.shields.io/badge/status-student%20project-lightgrey" alt="status" />
   </p>
 </div>
 
 <br />
 
-## Table des matieres
+## :notebook_with_decorative_cover: Table of Contents
 
-- [A propos](#a-propos)
-  - [Stack technique](#stack-technique)
-- [Demarrage](#demarrage)
-  - [Prerequis](#prerequis)
-  - [Installation](#installation)
-  - [Lancer le projet](#lancer-le-projet)
-- [Depots lies](#depots-lies)
-- [Contact](#contact)
+- [About the Project](#star2-about-the-project)
+  * [Tech Stack](#space_invader-tech-stack)
+- [Getting Started](#toolbox-getting-started)
+  * [Prerequisites](#bangbang-prerequisites)
+  * [Installation](#gear-installation)
+  * [Run the project](#running-run-the-project)
+- [Related Repositories](#link-related-repositories)
+- [Contact](#handshake-contact)
 
-## A propos
+## :star2: About the Project
 
-Ce depot correspond au module interne nomme `Client` dans l'architecture microservices de KittyDelivery, du cote des notifications envoyees aux utilisateurs. Il est genere avec `express-generator` (Express + EJS) et sert de base de service pour cette brique du systeme. A ce stade, le code contient uniquement le squelette par defaut (route d'accueil et route `/users` d'exemple), sans logique metier ajoutee.
+This repository corresponds to the internal module named `Client` in the KittyDelivery microservices architecture, on the side of notifications sent to users. It is generated with `express-generator` (Express + EJS) and serves as a service base for this part of the system. At this stage, the code only contains the default skeleton (home route and sample `/users` route), without added business logic.
 
-### Stack technique
+### :space_invader: Tech Stack
 
 <details>
-  <summary>Serveur</summary>
+  <summary>Server</summary>
   <ul>
     <li><a href="https://nodejs.org/">Node.js</a></li>
     <li><a href="https://expressjs.com/">Express</a></li>
@@ -36,43 +41,42 @@ Ce depot correspond au module interne nomme `Client` dans l'architecture microse
   </ul>
 </details>
 
-## Demarrage
+## :toolbox: Getting Started
 
-### Prerequis
+### :bangbang: Prerequisites
 
-Node.js et npm doivent etre installes.
+Node.js and npm must be installed.
 
-### Installation
+### :gear: Installation
 
 ```bash
 npm install
 ```
 
-### Lancer le projet
+### :running: Run the project
 
 ```bash
 npm start
 ```
 
-Le serveur demarre par defaut sur le port configure dans `bin/www` (3000 par defaut).
+The server starts by default on the port configured in `bin/www` (3000 by default).
 
-## Depots lies
+## :link: Related Repositories
 
-Ce module fait partie de l'architecture microservices KittyDelivery, decoupee en plusieurs depots :
+This module is part of the KittyDelivery microservices architecture, split across several repositories:
 
-- [KittyDelivery](https://github.com/BaditSad/KittyDelivery), depot principal du projet
-- [KittyDelivery_API](https://github.com/BaditSad/KittyDelivery_API), passerelle API
-- [KittyDelivery_mc_user](https://github.com/BaditSad/KittyDelivery_mc_user), gestion des comptes
-- [KittyDelivery_mc_restaurant](https://github.com/BaditSad/KittyDelivery_mc_restaurant), gestion des restaurants
-- [KittyDelivery_mc_auth](https://github.com/BaditSad/KittyDelivery_mc_auth), authentification
-- [KittyDelivery_mc_component](https://github.com/BaditSad/KittyDelivery_mc_component), composants partages
-- [KittyDelivery_mc_article](https://github.com/BaditSad/KittyDelivery_mc_article), produits et plats
-- [KittyDelivery_mc_log](https://github.com/BaditSad/KittyDelivery_mc_log), logs
-- [KittyDelivery_mc_menu](https://github.com/BaditSad/KittyDelivery_mc_menu), menus
-- [KittyDelivery_mc_order](https://github.com/BaditSad/KittyDelivery_mc_order), commandes
+- [KittyDelivery](https://github.com/kitty-delivery/KittyDelivery), main project repository
+- [KittyDelivery_core](https://github.com/kitty-delivery/KittyDelivery_core), architecture hub
+- [KittyDelivery_API](https://github.com/kitty-delivery/KittyDelivery_API), API gateway
+- [KittyDelivery_mc_user](https://github.com/kitty-delivery/KittyDelivery_mc_user), user accounts
+- [KittyDelivery_mc_restaurant](https://github.com/kitty-delivery/KittyDelivery_mc_restaurant), restaurant management
+- [KittyDelivery_mc_auth](https://github.com/kitty-delivery/KittyDelivery_mc_auth), authentication
+- [KittyDelivery_mc_component](https://github.com/kitty-delivery/KittyDelivery_mc_component), shared components
+- [KittyDelivery_mc_article](https://github.com/kitty-delivery/KittyDelivery_mc_article), products and dishes
+- [KittyDelivery_mc_log](https://github.com/kitty-delivery/KittyDelivery_mc_log), logs
+- [KittyDelivery_mc_menu](https://github.com/kitty-delivery/KittyDelivery_mc_menu), menus
+- [KittyDelivery_mc_order](https://github.com/kitty-delivery/KittyDelivery_mc_order), orders
 
-## Contact
+## :handshake: Contact
 
-Brieuc Dumortier
-
-[LinkedIn](https://www.linkedin.com/in/dumortier-brieuc/) . [GitHub](https://github.com/BaditSad) . dumortier.contact@gmail.com
+Brieuc Dumortier, [LinkedIn](https://www.linkedin.com/in/dumortier-brieuc/), [GitHub](https://github.com/BaditSad), dumortier.contact@gmail.com
